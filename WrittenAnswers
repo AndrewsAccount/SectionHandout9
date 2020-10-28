@@ -1,0 +1,13 @@
+
+
+Section Handout #9: Objects and Data structures
+
+
+You cannot compare strings using "==", you must use ".equals()". 
+The "==" operator compares the addresses of reference objects.
+
+
+In the second set of code, you're pulling a single char out of the string. That char is a primitive 
+	data type. So now you can use "==" to compare the primitive data type to the character 'Q'.
+You will be checking to make sure the name is only one character long and that it equals the 'Q'.
+If it meets those conditions, it will return true. 
